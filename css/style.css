@@ -45,6 +45,38 @@ main{
     padding: 4px;
 }
 footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 70px;
-    background-color: tan;
+    background-color: #222222;
+}
+.foot-left{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.foot-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+.above{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+.fa-share-square{
+    color: #4bc700;
+}
+.foot-right{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
 }
